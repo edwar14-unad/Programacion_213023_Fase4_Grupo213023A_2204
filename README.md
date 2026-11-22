@@ -28,11 +28,11 @@ El sistema implementa:
 
 | Archivo | Descripción | Responsable |
 | :--- | :--- | :--- |
-| `excepciones_y_logs.py` | Jerarquía de excepciones personalizadas y gestor de registros. | John Eyder Cano Chavez (`jecanounad`) |
+| `excepciones_y_logs.py` | Jerarquía de excepciones personalizadas y gestor de registros. | Eduar Andres Osorio (`edwar14-unad`) |
 | `modelos_base.py` | Clase abstracta `EntidadBase` y clase `Cliente`, con sus respectivas validaciones. | John Eyder Cano Chavez (`jecanounad`) |
-| `servicios.py` | Clase `Servicio` y servicios especializados: `ReservaSala`, `AlquilerEquipo` y `AsesoriaEspecializada`. | Aporte individual (`edwar14-unad`) |
-| `reservas.py` | Clase `Reserva`, con gestión de estados, confirmación, cancelación y procesamiento. | Aporte individual (`edwar14-unad`) |
-| `main.py` | Controlador principal y ejecución secuencial de operaciones de prueba. | Integrante responsable del controlador |
+| `servicios.py` | Clase `Servicio` y servicios especializados: `ReservaSala`, `AlquilerEquipo` y `AsesoriaEspecializada`. | Eduar Andres Osorio (`edwar14-unad`) |
+| `reservas.py` | Clase `Reserva`, con gestión de estados, confirmación, cancelación y procesamiento. | Eduar Andres Osorio (`edwar14-unad`) |
+| `main.py` | Controlador principal y ejecución secuencial de operaciones de prueba. | John Eyder Cano Chavez (`jecanounad`) |
 
 ---
 
