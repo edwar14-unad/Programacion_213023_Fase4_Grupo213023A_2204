@@ -1,4 +1,3 @@
-Sistema Integral de Gestión de Clientes, Servicios y Reservas - Software FJ), el curso (Programación 213023 - Grupo 213023A_2204
 # Sistema Integral de Gestión de Clientes, Servicios y Reservas – Software FJ
 
 **Universidad Nacional Abierta y a Distancia – UNAD**  
@@ -12,13 +11,16 @@ Sistema Integral de Gestión de Clientes, Servicios y Reservas - Software FJ), e
 
 ## Descripción del Proyecto
 
-Aplicación desarrollada en **Python 3** bajo el paradigma de **Programación Orientada a Objetos (POO)** sin el uso de bases de datos (gestión en memoria mediante objetos y listas), orientada a la administración de clientes, servicios tecnológicos y reservas para la empresa **Software FJ**.
+Aplicación desarrollada en **Python 3** bajo el paradigma de **Programación Orientada a Objetos (POO)**, sin el uso de bases de datos. La información se gestiona en memoria mediante objetos y listas. El sistema está orientado a la administración de clientes, servicios tecnológicos y reservas para la empresa **Software FJ**.
 
 El sistema implementa:
-- Clases abstractas (`EntidadBase` y `Servicio`), herencia, encapsulación estricta (`@property`) y polimorfismo.
-- Jerarquía de excepciones personalizadas (`SoftwareFJError`, `DatoInvalidoError`, `ParametroFaltanteError`, `ServicioNoDisponibleError`, `ReservaInvalidaError`, `OperacionNoPermitidaError`).
-- Manejo avanzado de errores mediante bloques `try / except`, `try / except / else`, `try / except / finally` y encadenamiento de excepciones (`raise ... from`).
-- Registro persistente de eventos y errores en el archivo plano `sistema_fj.log`.
+
+- Clases abstractas (`EntidadBase` y `Servicio`).
+- Herencia, encapsulamiento y polimorfismo.
+- Validaciones mediante excepciones personalizadas.
+- Manejo de errores mediante bloques `try / except`.
+- Encadenamiento de excepciones mediante `raise ... from`.
+- Registro de eventos y errores en el archivo `sistema_fj.log`.
 
 ---
 
@@ -26,18 +28,27 @@ El sistema implementa:
 
 | Archivo | Descripción | Responsable |
 | :--- | :--- | :--- |
-| `excepciones_y_logs.py` | Jerarquía de excepciones personalizadas y gestor de auditoría en archivo `.log`. | John Eyder Cano Chavez (`jecanounad`) |
-| `modelos_base.py` | Clase abstracta `EntidadBase` y clase `Cliente` con encapsulación y validaciones. | John Eyder Cano Chavez (`jecanounad`) |
-| `servicios.py` | Clase abstracta `Servicio` y servicios especializados (`ReservaSala`, `AlquilerEquipo`, `AsesoriaEspecializada`). | *[Pendiente aporte compañero]* |
-| `reservas.py` | Clase `Reserva` con gestión de estados, confirmación, cancelación y procesamiento. | *[Pendiente aporte compañero]* |
-| `main.py` | Controlador principal en memoria y ejecución secuencial de operaciones de prueba. | *[Pendiente aporte compañero]* |
+| `excepciones_y_logs.py` | Jerarquía de excepciones personalizadas y gestor de registros. | John Eyder Cano Chavez (`jecanounad`) |
+| `modelos_base.py` | Clase abstracta `EntidadBase` y clase `Cliente`, con sus respectivas validaciones. | John Eyder Cano Chavez (`jecanounad`) |
+| `servicios.py` | Clase `Servicio` y servicios especializados: `ReservaSala`, `AlquilerEquipo` y `AsesoriaEspecializada`. | Aporte individual (`edwar14-unad`) |
+| `reservas.py` | Clase `Reserva`, con gestión de estados, confirmación, cancelación y procesamiento. | Aporte individual (`edwar14-unad`) |
+| `main.py` | Controlador principal y ejecución secuencial de operaciones de prueba. | Integrante responsable del controlador |
 
 ---
 
 ## Ejecución del Proyecto
 
-1. Clonar o descargar el repositorio en un entorno con **Python 3.10 o superior**.
-2. Abrir una terminal en la carpeta raíz del proyecto.
-3. Ejecutar el archivo principal:
-   ```bash
-   python main.py
+1. Clonar o descargar el repositorio.
+2. Contar con **Python 3.10 o superior** instalado.
+3. Abrir una terminal en la carpeta raíz del proyecto.
+4. Ejecutar el archivo principal con el siguiente comando:
+
+```bash
+python main.py
+```
+
+---
+
+## Aportes al Proyecto
+
+Se realizaron aportes individuales en los módulos `servicios.py` y `reservas.py`, implementando la creación y validación de servicios, así como la gestión de reservas y sus respectivos estados, excepciones y registros.
