@@ -26,8 +26,6 @@ El sistema implementa:
 
 ## Estructura Modular del Repositorio
 
-## Estructura Modular del Repositorio
-
 | Archivo | Descripción | Responsable |
 | :--- | :--- | :--- |
 | `README.md` | Documentación general del proyecto e instrucciones de ejecución. | John Eyder Cano Chavez (`jecanounad`) |
