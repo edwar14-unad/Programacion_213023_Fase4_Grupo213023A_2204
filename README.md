@@ -31,11 +31,11 @@ El sistema implementa:
 | Archivo | Descripción | Responsable |
 | :--- | :--- | :--- |
 | `README.md` | Documentación general del proyecto e instrucciones de ejecución. | John Eyder Cano Chavez (`jecanounad`) |
+| `main.py` | Controlador principal y ejecución secuencial de las operaciones de prueba. | John Eyder Cano Chavez (`jecanounad`) |
 | `excepciones_y_logs.py` | Jerarquía de excepciones personalizadas y gestor de registros. | Eduar Andres Osorio (`edwar14-unad`) |
 | `modelos_base.py` | Clase abstracta `EntidadBase` y clase `Cliente`, con sus respectivas validaciones. | Eduar Andres Osorio (`edwar14-unad`) |
 | `servicios.py` | Clase `Servicio` y servicios especializados: `ReservaSala`, `AlquilerEquipo` y `AsesoriaEspecializada`. | Eduar Andres Osorio (`edwar14-unad`) |
 | `reservas.py` | Clase `Reserva`, con gestión de estados, confirmación, cancelación y procesamiento. | Eduar Andres Osorio (`edwar14-unad`) |
-| `main.py` | Controlador principal y ejecución secuencial de las operaciones de prueba. | John Eyder Cano Chavez (`jecanounad`) |
 
 ---
 
@@ -54,4 +54,8 @@ python main.py
 
 ## Aportes al Proyecto
 
-Se realizaron aportes individuales en los módulos `servicios.py` y `reservas.py`, implementando la creación y validación de servicios, así como la gestión de reservas y sus respectivos estados, excepciones y registros.
+El desarrollo del proyecto contó con la participación de dos integrantes.
+
+**John Eyder Cano Chavez** desarrolló el archivo `main.py`, encargado de la ejecución y coordinación de las operaciones del sistema, y elaboró la documentación del proyecto mediante el archivo `README.md`.
+
+**Eduar Andres Osorio** realizó el desarrollo de los módulos `excepciones_y_logs.py`, `modelos_base.py`, `servicios.py` y `reservas.py`, implementando la gestión de excepciones, los modelos de clientes, los servicios especializados y el manejo de reservas.
