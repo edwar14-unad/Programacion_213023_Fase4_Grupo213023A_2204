@@ -26,13 +26,16 @@ El sistema implementa:
 
 ## Estructura Modular del Repositorio
 
+## Estructura Modular del Repositorio
+
 | Archivo | Descripción | Responsable |
 | :--- | :--- | :--- |
+| `README.md` | Documentación general del proyecto e instrucciones de ejecución. | John Eyder Cano Chavez (`jecanounad`) |
 | `excepciones_y_logs.py` | Jerarquía de excepciones personalizadas y gestor de registros. | Eduar Andres Osorio (`edwar14-unad`) |
-| `modelos_base.py` | Clase abstracta `EntidadBase` y clase `Cliente`, con sus respectivas validaciones. | John Eyder Cano Chavez (`jecanounad`) |
+| `modelos_base.py` | Clase abstracta `EntidadBase` y clase `Cliente`, con sus respectivas validaciones. | Eduar Andres Osorio (`edwar14-unad`) |
 | `servicios.py` | Clase `Servicio` y servicios especializados: `ReservaSala`, `AlquilerEquipo` y `AsesoriaEspecializada`. | Eduar Andres Osorio (`edwar14-unad`) |
 | `reservas.py` | Clase `Reserva`, con gestión de estados, confirmación, cancelación y procesamiento. | Eduar Andres Osorio (`edwar14-unad`) |
-| `main.py` | Controlador principal y ejecución secuencial de operaciones de prueba. | John Eyder Cano Chavez (`jecanounad`) |
+| `main.py` | Controlador principal y ejecución secuencial de las operaciones de prueba. | John Eyder Cano Chavez (`jecanounad`) |
 
 ---
 
